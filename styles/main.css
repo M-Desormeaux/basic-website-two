@@ -16,7 +16,7 @@ html {
 #Content {
     width: 90%;
     max-width: 1200px;
-    min-width: 600px;
+    min-width: 500px;
     background-color: gray;
     min-height: 100vh;
     padding: 1rem;
