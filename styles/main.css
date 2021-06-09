@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+.AppWrapper {
+    display: flex;
+    justify-content: center;
+    background-color: green;
+}
+.Content {
+    width: 90%;
+    max-width: 1200px;
+    min-width: 600px;
+    background-color: blue;
+    height: 100vh;
+}
