@@ -11,28 +11,20 @@ html {
 #AppWrapper {
     display: flex;
     justify-content: center;
-    background-color: black;
+    background-color: #f98404;
+    color: #f3f4ed;
 }
 #Content {
     width: 90%;
     max-width: 1200px;
-    min-width: 500px;
-    background-color: gray;
+    min-width: 560px;
     min-height: 100vh;
-    padding: 1rem;
+    padding: 1rem 2rem;
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    flex-direction: column;
+    background: #e1701a;
 }
-#TitlePlate,
-.TestBox {
-    border: 1px solid black;
-    padding: 0.5rem;
-    background-color: lightgray;
-}
-div {
-    margin-bottom: 0.5rem;
-}
-div:last-child {
-    margin-bottom: 0;
-}
-div:hover {
-    border-color: white;
+#fancy {
+    font-family: "Sacramento", sans-serif;
 }
