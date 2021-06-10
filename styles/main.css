@@ -1,3 +1,29 @@
+/* #region */
+#landing {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#landing > #honeycomb {
+    width: 80%;
+    max-width: 600px;
+}
+#landing #honey {
+    width: 90%;
+    max-width: 1200px;
+    min-width: 560px;
+    border: 2px solid #ffb767;
+    border-top: 0;
+    border-bottom: 0;
+    position: absolute;
+}
+#group {
+    position: absolute;
+    bottom: 10%;
+}
+/* #endregion */
+/* #region Whole Page Styling */
 :root {
     font-size: 16px;
 }
@@ -22,7 +48,6 @@ html {
     max-width: 1200px;
     min-width: 560px;
     min-height: 100vh;
-    padding: 1rem 2rem;
     font-family: "Open Sans", sans-serif;
     display: flex;
     flex-direction: column;
@@ -30,6 +55,9 @@ html {
     border: 2px solid #ffb767;
     border-top: 0;
     border-bottom: 0;
+}
+#page {
+    padding: 0 2rem 1rem;
 }
 #fillspace {
     flex-grow: 1;
@@ -40,18 +68,78 @@ hr {
     border-left: 0;
     border-right: 0;
     border-bottom: 0;
-    /* border-radius: 1rem; */
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    text-align: center;
+}
+/* #endregion */
+/* #region Top Container Style*/
 #fancy {
     font-family: "Sacramento", sans-serif;
 }
 #pair {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 0.5rem;
 }
 #pair img {
     border-radius: 1rem;
-    margin-right: 0.5rem;
 }
+#pair #fancy {
+    margin: 0.5rem 0 0;
+}
+.contact-me {
+    display: flex;
+    flex-direction: column;
+}
+#btn {
+    width: fit-content;
+    align-self: center;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    margin-bottom: 0.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid #ffb767;
+    background-color: #ffb767;
+    color: #232323;
+    text-decoration: none;
+}
+#btn:hover,
+#btn:active {
+    color: #f3f4ed;
+    background-color: #f98404;
+}
+/* #endregion */
+/* #region Bottom Container Style */
+.bottom-container {
+    text-align: center;
+    padding-top: 1rem;
+}
+.bottom-container p {
+    padding: 0;
+    margin: 0;
+}
+.footer-link {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    border: 1px solid #ffb767;
+    background-color: #ffb767;
+    color: #232323;
+    text-decoration: none;
+}
+.footer-link:hover,
+.footer-link:active {
+    color: #f3f4ed;
+    background-color: #f98404;
+}
+/* #endregion */
