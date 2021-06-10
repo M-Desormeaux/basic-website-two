@@ -1,3 +1,6 @@
+:root {
+    font-size: 16px;
+}
 * {
     box-sizing: border-box;
 }
@@ -23,8 +26,32 @@ html {
     font-family: "Open Sans", sans-serif;
     display: flex;
     flex-direction: column;
-    background: #e1701a;
+    background-color: #e1701a;
+    border: 2px solid #ffb767;
+    border-top: 0;
+    border-bottom: 0;
+}
+#fillspace {
+    flex-grow: 1;
+}
+hr {
+    width: 25px;
+    border-top: 5px dotted #ffb767;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+    /* border-radius: 1rem; */
 }
 #fancy {
     font-family: "Sacramento", sans-serif;
+}
+#pair {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+}
+#pair img {
+    border-radius: 1rem;
+    margin-right: 0.5rem;
 }
